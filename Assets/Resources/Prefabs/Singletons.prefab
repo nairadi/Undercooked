@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1949583865764188}
+  m_IsPrefabParent: 1
+--- !u!1 &1949583865764188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4301262326465728}
+  - component: {fileID: 114250402753270986}
+  - component: {fileID: 114795453430971560}
+  - component: {fileID: 114320454214691332}
+  m_Layer: 0
+  m_Name: Singletons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4301262326465728
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949583865764188}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114250402753270986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949583865764188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a22a66ae4b3034af693e6ee33d333381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 1314190871167792, guid: d72d0d95de1cf4bb2a41ee9c76a4a02b,
+    type: 2}
+  teamLeftHP: {fileID: 0}
+  teamRightHP: {fileID: 0}
+  player1: {fileID: 0}
+  player2: {fileID: 0}
+  losingTeam: 0
+  audioScript: {fileID: 0}
+--- !u!114 &114320454214691332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949583865764188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ec15d6e3072411eb4097e4842dabb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BunTopSprite: {fileID: 21300000, guid: c8002ed1999054a2fb69a5af51af93d7, type: 3}
+  BunBottomSprite: {fileID: 21300000, guid: c43c25f0ad5264e85816ae667cf86436, type: 3}
+  MeatCookedSprite: {fileID: 21300000, guid: 07c6826c114f34f2a9aec3deaf74fe4f, type: 3}
+  LettuceChoppedSprite: {fileID: 21300000, guid: b25613dec88414383b5fef69fd1ad258,
+    type: 3}
+  TomatorChoppedSprite: {fileID: 21300000, guid: 4bd898a0434f840cd93edf68c63af536,
+    type: 3}
+  BubbleSprite: {fileID: 21300000, guid: f9a3e7c96f55442da805cc9c5232a840, type: 3}
+--- !u!114 &114795453430971560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949583865764188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3ae3ee62d514b21ba485fac815c81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

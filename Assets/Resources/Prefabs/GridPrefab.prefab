@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1854871701011450}
+  m_IsPrefabParent: 1
+--- !u!1 &1854871701011450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4038079078591544}
+  - component: {fileID: 114733400394446950}
+  m_Layer: 0
+  m_Name: GridPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4038079078591544
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1854871701011450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114733400394446950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1854871701011450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994b4299c6fb847438975cf9d785ba02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 20
+  height: 12
+  cellWidth: 1
+  cellHeight: 1
+  tileFloor: {fileID: 1373486882735796, guid: 55c818e6e71cb41a7abc78f0bc70fd9a, type: 2}
+  tileWall: {fileID: 1489063747003240, guid: f4ed1a02a9b224eb48418223c6b97986, type: 2}
+  tileFoodGenerator: {fileID: 1489063747003240, guid: 5e303535552ea41aa810841e81749b94,
+    type: 2}
+  tileCuttingBoard: {fileID: 1489063747003240, guid: 6e756e357281646bab58bbfc3cae6300,
+    type: 2}
+  tileStove: {fileID: 1260910092926276, guid: daf27a6f440654ad9ba0ca006fd45116, type: 2}
+  tileEmptyStove: {fileID: 1632007521527374, guid: 96392b1b818a04459bfcbf4592e1b174,
+    type: 2}
+  tileCounterTop: {fileID: 1396083168327714, guid: dce82bccb3c7f4f148c7ceb67ac975d9,
+    type: 2}
+  tileOrder: {fileID: 1489063747003240, guid: 1f2dfef61af5647df964afbf8083728c, type: 2}
+  tileGarbage: {fileID: 1489063747003240, guid: 2821ed98c8dd84b33b65e48f8d6f0ea4,
+    type: 2}
